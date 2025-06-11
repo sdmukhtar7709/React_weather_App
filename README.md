@@ -1,16 +1,68 @@
-<<<<<<< HEAD
-# React_weather_App
-=======
-# React + Vite
+# React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern weather app built with **React** and **Vite**.  
+It fetches real-time weather data from the [OpenWeatherMap API](https://openweathermap.org/api) and displays it in a clean, responsive card UI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search weather by city name
+- Shows temperature, feels like, humidity, min/max temp, wind speed, cloudiness, pressure, visibility, and more
+- Weather icon and background image change based on current weather
+- Responsive and full-screen design
+- Error handling for invalid city names
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 4f8dd6e (intial comit)
+![Weather App Screenshot](https://user-images.githubusercontent.com/your-screenshot.png)
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/react-weather-app.git
+cd react-weather-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+```
+src/
+  ├── App.jsx
+  ├── WeatherApp.jsx
+  ├── searchbox.jsx
+  ├── InfoBox.jsx
+  ├── index.css
+  └── infoBox.css
+```
+
+## Configuration
+
+- The OpenWeatherMap API key is set in `searchbox.jsx`.  
+  For production, use environment variables for security.
+
+## Deployment
+
+You can deploy this app on [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or any static hosting.
+
+## License
+
+MIT
+
+---
+
+**Made with ❤️ using React and Vite**
