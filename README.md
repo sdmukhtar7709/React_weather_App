@@ -13,7 +13,7 @@ It fetches real-time weather data from the [OpenWeatherMap API](https://openweat
 
 ## Demo
 
-![Weather App Screenshot](https://user-images.githubusercontent.com/your-screenshot.png)
+![Weather App Screenshot]([https://user-images.githubusercontent.com/your-screenshot.png](https://github.com/sdmukhtar7709/React_weather_App/blob/main/Screenshot%202025-06-11%20191345.png))
 
 ## Getting Started
 
